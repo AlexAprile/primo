@@ -1,0 +1,25 @@
+nane: GitHub Actions Dem
+run.nane; github,actor is testing out GitHub Actions
+on: [push]
+jobs:
+Explore-Gi tHub-Act ions:
+: ubuntu-latest
+runs•on
+steps :
+The job triuered by a sithub.event_nane j} event."
+run:
+This job is running a runner.os server hosted by GitHub! "
+- run:
+- run: "P The nane Of Your branch is github.ref and Your repository is github.repository
+- Check out repository code
+: actions/checko•atev3
+uses
+ecbo "Q The SI ( github.repository ) ) repository has been eloned to the runner."
+• run:
+The is ready to test pur code on the runner.•
+- run:
+List files in the repository
+- name;
+run:
+    ls ${{ github.mrkspace }}
+- run: echo " This job' s status is ${{ job.status }}
